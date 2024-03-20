@@ -1,0 +1,33 @@
+<div class="d-flex justify-content-between align-items-center">
+    <span class="d-flex align-items-center ms-md-5">
+        <img src="{{headerData.header.logo}}" alt="" style="max-width: 90px;">
+        <span class="ms-md-5 d-inline">{{headerData.header.shopByCategory.text}}
+            <img src="{{headerData.header.shopByCategory.downArrow}}" alt="" (click)="toggleDropdown()">
+            <div class="ms-md-5 d-inline">{{headerData.header.shopByCategory.exploreFarms}}</div>
+        </span>
+    </span>
+
+    <span class="d-flex align-items-center">
+        <img src="{{headerData.header.search.image}}" alt=""
+            style="width: 20px;margin-right: 5px;">{{headerData.header.search.heading}}
+        <img src="{{headerData.header.location.icon}}" alt="" class="ms-3" style="width: 18px;margin-right: 5px;">
+        {{headerData.header.location.text}}
+        <img src="{{headerData.header.userAccount}}" alt="" class="ms-3" style="width: 20px;">
+        <img src="{{headerData.header.notifications}}" alt="" class="ms-3" style="width: 20px;">
+        <img src="{{headerData.header.cart}}" alt="" class="ms-3" style="width: 30px; margin-right: 45px;">
+    </span>
+</div>
+<div *ngIf="showDropdown">
+    <div class="row">
+        <div class="col-md-2 column-with-line" *ngFor="let category of categoriesData">
+            <div class="CategoryName">{{ category.name }}</div>
+            <div *ngFor="let subcategory of category.subcategories" class="subcategories">
+                {{ subcategory }}
+            </div>
+            <div class="View">{{viewtext.name}}</div>
+        </div>
+    </div>
+    <div class=" viewAll rounded row justify-content-center mt-3">
+        {{ allCategory.name }}
+    </div>
+</div>

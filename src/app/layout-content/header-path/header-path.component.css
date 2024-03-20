@@ -1,0 +1,28 @@
+.View{
+    color:#CE1126;
+}
+.CategoryName{
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.column-with-line{
+    border-left :1px solid  #ccc;
+    padding-left: 20px;
+}
+
+.viewAll{
+    background-color: #80B435;
+    display: flex;
+}
+.CategoryName {
+    color: #415162;
+    font-family: 'Open Sans', SemiBold, sans-serif;
+    font-size: 18px;
+}
+
+.subcategories {
+    color: #415162;
+    font-family: 'Open Sans', Regular, sans-serif;
+    font-size: 16px;
+}

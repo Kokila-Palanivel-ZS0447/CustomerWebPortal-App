@@ -1,0 +1,44 @@
+{
+    "explore_content": {
+        "explore_heading": [
+                {
+                    "explore": "ExploreFarms"
+                },
+                {
+                    "downArrow": "assets/image/DownArrow.svg"
+                },
+                {
+                    "downRotateArrow": "assets/image/DownArrow.svg"
+                },
+                {
+                    "view": "view all"
+                }
+            ],
+        "farmImage": [
+            {
+                "image": "assets/image/GEORGE_FARM.png",
+                "text": "George Farm"
+            },
+            {
+                "image": "assets/image/MARTHA'S_FARM.png",
+                "text": "Martha's Fresh Farm"
+            },
+            {
+                "image": "assets/image/MATHEW_FARM.png",
+                "text": "Mathew Farm"
+            },
+            {
+                "image": "assets/image/JOSEPH_FARM.png",
+                "text": "Joseph Farm"
+            },
+            {
+                "image": "assets/image/KAY'S_CHICK_FARM.png",
+                "text": "Kay Chick Farm"
+            },
+            {
+                "image": "assets/image/MASK_GROUP.png",
+                "text": "Al-Orgo Farm"
+            }
+        ]
+    }
+}

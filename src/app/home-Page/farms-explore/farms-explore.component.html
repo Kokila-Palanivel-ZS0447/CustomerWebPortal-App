@@ -1,0 +1,17 @@
+<div class="explore_container">
+    <div class="col-sm-4">
+        <ng-container *ngFor="let item of farmsContent">
+          <span class="explore">{{ item.explore }}</span>
+          <span class="col-auto-1"> <img [src]="item.downArrow" alt=""></span>
+          <span class="col-auto-2"> <img [src]="item.downRotateArrow" alt=""></span>
+          <span class="view">{{ item.view }}</span>
+        </ng-container>
+      </div>
+
+    <div class="row-grid-container">
+        <div *ngFor="let farm of farmsImage">
+            <img [src]="farm.image" [alt]="farm.text">
+            <p>{{farm.text}}</p>
+           </div>
+    </div>
+</div>

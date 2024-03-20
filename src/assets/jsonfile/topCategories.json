@@ -1,0 +1,44 @@
+{
+    "categories_container": {
+        "categories_heading": [
+                {
+                    "categories_text": "Top Categories"
+                },
+                {
+                    "downArrow": "assets/image/DownArrow.svg"
+                },
+                {
+                    "downRotateArrow": "assets/image/DownArrow.svg"
+                },
+                {
+                    "view": "view all"
+                }
+            ],
+        "categoriesImage": [
+            {
+                "image": "assets/image/Dairy.png",
+                "text": "Dairy"
+            },
+            {
+                "image": "assets/image/Poultry.png",
+                "text": "Poultry"
+            },
+            {
+                "image": "assets/image/SeaFood.png",
+                "text": "Sea Food"
+            },
+            {
+                "image": "assets/image/Vegetables.png",
+                "text": "Vegetables"
+            },
+            {
+                "image": "assets/image/Fresh_Fruits.png",
+                "text": "FreshFruits"
+            },
+            {
+                "image": "assets/image/Flowers.png",
+                "text": "Flowers"
+            }
+        ]
+    }
+}

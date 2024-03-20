@@ -1,0 +1,51 @@
+{
+    "box": {
+      "wrapper": {
+        "logo": {
+          "image-logo": "assets/image/LOGO.png",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip."
+        },
+        "shop": {
+          "heading": "Shop by Category",
+          "categories": [
+            "Dairy",
+            "Poultry",
+            "Sea",
+            "Food",
+            "Vegetables",
+            "Fresh Fruits",
+            "Flowers"
+          ]
+        },
+        "links": {
+          "heading": "Quick Links",
+          "quicklinks": [
+            "Explore Farms",
+            "Home",
+            "About Us",
+            "FAQs",
+            "Sell with Us",
+            "Privacy Policy",
+            "Terms & Conditions"
+          ]
+        },
+        "account": {
+          "login": "Login to your account",
+          "register": "Register with Us",
+          "app": {
+            "Google_Play": "assets/image/Google_Play.png",
+            "Apple_Store": "assets/image/Apple_Store.png"
+          },
+          "follow": "Follow Us",
+          "ellipse": [
+            "assets/image/Ellipse 60.png",
+            "assets/image/Ellipse 60.png",
+            "assets/image/Ellipse 60.png",
+            "assets/image/Ellipse 60.png"
+          ]
+        }
+      },
+      "copyrightbox": "Copyright 2020. All Right Reserved."
+    }
+  }
+  

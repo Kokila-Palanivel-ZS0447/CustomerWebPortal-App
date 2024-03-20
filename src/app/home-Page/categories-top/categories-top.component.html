@@ -1,0 +1,21 @@
+<div class="categories_container">
+    <div class="col-sm-4">
+        <ng-container *ngFor="let category of categoriesContent">
+            <span class="explore">{{ category.categories_text }}</span>
+            <span class="col-auto-1"> <img [src]="category.downArrow" alt=""></span>
+            <span class="col-auto-2"> <img [src]="category.downRotateArrow" alt=""></span>
+            <span class="view">{{category.view}}</span>
+        </ng-container>
+    </div>
+
+    <div class="row-grid-container">
+        <div *ngFor="let categoryImg of categoriesImage">
+            <div class="category-item">
+            <img [src]="categoryImg.image" [alt]="categoryImg.text">
+            <div class="overlay">
+                <p>{{categoryImg.text}}</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>

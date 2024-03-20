@@ -1,0 +1,43 @@
+<ng-container *ngIf="posts" >
+    <div class="box" > 
+    <div class="wrapper"> 
+            <div class="logo">
+                <div class="image-logo"><img src="{{posts.box.wrapper.logo['image-logo']}}" alt="logo">   
+                </div>
+                {{posts.box.wrapper.logo.text}}
+            </div>
+            <div class="shop">
+                <span style="color:#FFFFFF">{{posts.box.wrapper.shop.heading}}</span>
+                <div  *ngFor="let category of posts.box.wrapper.shop.categories">{{category}}
+                </div>
+            </div>
+        
+            <div class="links">
+                <span style="color:#FFFFFF">{{posts.box.wrapper.links.heading}}</span>
+                <div *ngFor="let quicklink of posts.box.wrapper.links.quicklinks">{{quicklink}}
+                </div> 
+            </div>
+            
+            <div class="account">
+                    <div class="Login_Account">{{posts.box.wrapper.account.login}}
+                    </div>
+                    <div class="Register">{{posts.box.wrapper.account.register}} 
+                    </div>
+                    <div class="Google_Play">
+                        <img src="{{posts.box.wrapper.account.app.Google_Play}}" alt="google">
+                        <img src="{{posts.box.wrapper.account.app.Apple_Store}}" alt="apple_store">
+                    </div>
+                <div class="follow"> {{posts.box.wrapper.account.follow}}</div>
+                <div class="ellipse">
+                    <img *ngFor ="let img of posts.box.wrapper.account.ellipse" [src]="img">
+                </div>
+            </div>
+        </div>
+        <div class="copyright-box">
+            {{posts.box.copyrightbox}}
+        </div>
+    </div>
+</ng-container>
+<ng-container *ngIf="!posts">
+        <div>Check the server page isn't loading</div>
+</ng-container>

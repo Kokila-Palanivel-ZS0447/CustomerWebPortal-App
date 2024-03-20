@@ -1,0 +1,77 @@
+{
+  "header": {
+    "logo": "assets/image/Fresh_Local_logo.png",
+    "shopByCategory": {
+      "text": "Shop By category",
+      "downArrow": "assets/image/DownArrow.svg",
+      "exploreFarms": "Explore Farms"
+    },
+    "search": {
+      "heading": "Search",
+      "image": "assets/image/Search.svg"
+    },
+    "location": {
+      "icon": "assets/image/Location.svg",
+      "text": "Hadiya 52700"
+    },
+    "userAccount": "assets/image/UserAccountLogo.svg",
+    "notifications": "assets/image/Notifications.svg",
+    "cart": "assets/image/AddToCart.svg"
+  },
+  "categories": [
+    {
+      "name": "Diary",
+      "subcategories": [
+        "Milk",
+        "Butter",
+        "Cheese"
+      ]
+    },
+    {
+      "name": "Poultry",
+      "subcategories": [
+        "Egg",
+        "Chicken",
+        "Turkey"
+      ]
+    },
+    {
+      "name": "Sea Food",
+      "subcategories": [
+        "Shrimps",
+        "Fish",
+        "Lobster"
+      ]
+    },
+    {
+      "name": "Vegetables",
+      "subcategories": [
+        "Leafy",
+        "Roots",
+        "Seasoning"
+      ]
+    },
+    {
+      "name": "Fresh Fruits",
+      "subcategories": [
+        "Apple",
+        "Citrus",
+        "Exotic"
+      ]
+    },
+    {
+      "name": "Flowers",
+      "subcategories": [
+        "Roses",
+        "Blue and Blush",
+        "Festive"
+      ]
+    }
+  ],
+  "viewtext":{
+    "name":"View All"
+  },
+  "allCategories":{
+    "name":"View All Categories"
+  }
+}

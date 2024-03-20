@@ -1,0 +1,12 @@
+
+{
+    "wrapper":{
+        "container":{
+            "row":[
+                    "assets/image/FeaturedPromos.png",
+                    "assets/image/MakeYourDay.png",
+                    "assets/image/Sweetness.png"
+                ] 
+            }
+    }
+}
